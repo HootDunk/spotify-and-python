@@ -4,7 +4,7 @@ import spotipy.util as util
 
 USERNAME = 'hootmx198' #your spotify username
 CLIENT_ID = '5e67baffd423477b81fb43abb8101b9a'#set at your developer account
-CLIENT_SECRET = 'b3f1d01e33e14875bee10ea18e0ec8ae' #set at your developer account
+CLIENT_SECRET = 'put you secret credentials in this string' #set at your developer account
 REDIRECT_URI = 'http://localhost:8000' #set at your developer account, usually "http://localhost:8000"
 SCOPE = 'user-library-read'
 
@@ -42,7 +42,7 @@ token = util.prompt_for_user_token(username = USERNAME,
                                    redirect_uri = REDIRECT_URI)
 
 #parameter for which playlist to add to (can be found in the url of the playlist)
-playlist_id = '2z1M6Lfv5dRVtGPdskBhSE'
+playlist_id = 'put your playlist id here'
 #made a new list under a different name to make it a bit more readable.  Although it is a bit redundant. 
 track_ids = library_ids
 
