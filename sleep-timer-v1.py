@@ -4,9 +4,9 @@ import time
 import os
 
 
-USERNAME = 'hootmx198' #your spotify username
-CLIENT_ID = '5e67baffd423477b81fb43abb8101b9a'#set at your developer account
-CLIENT_SECRET = 'b3f1d01e33e14875bee10ea18e0ec8ae' #set at your developer account
+USERNAME = 'enter your username' #your spotify username
+CLIENT_ID = 'enter your client id'#set at your developer account
+CLIENT_SECRET = 'enter your client secret' #set at your developer account
 REDIRECT_URI = 'http://localhost:8000' 
 SCOPE = 'user-read-currently-playing'
 # scope = 'user-read-playback-state'
@@ -37,10 +37,6 @@ while len(songs_played) <= song_limit:
 # Puts PC to sleep
 os.system("rundll32.exe powrprof.dll,SetSuspendState 0,1,0")
 
-
-# print(f'The song "{current_track_data["item"]["name"]}"'
-# 	f' by {current_track_data["item"]["artists"][0]["name"]} has a popularity rating '
-# 	f'of {current_track_data["item"]["popularity"]}.')
 
 
 
