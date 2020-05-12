@@ -3,9 +3,9 @@ import pickle
 import spotipy
 import spotipy.util as util
 
-USERNAME = 'hootmx198' #your spotify username
-CLIENT_ID = '5e67baffd423477b81fb43abb8101b9a'#set at your developer account
-CLIENT_SECRET = 'Enter you cleint client_secret here!' #set at your developer account
+USERNAME = 'enter your username' #your spotify username
+CLIENT_ID = 'enter your client id'#set at your developer account
+CLIENT_SECRET = 'Enter you client client_secret here!' #set at your developer account
 REDIRECT_URI = 'http://localhost:8000' #set at your developer account, usually "http://localhost:8000"
 SCOPE = 'user-library-read'
 
