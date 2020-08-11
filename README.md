@@ -1,5 +1,5 @@
 # spotify-and-python
-A collection of spotify scripts that solved a few problems I had.
+A collection of programs using the spotify API and spotipy library to solve some problems and add some features
 
 "copy_library_to_playlist.py" copies all of the songs in the "Liked Songs" part
 of your library into a designated playlist. Currently Spotify does not offer an option
